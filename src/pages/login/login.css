@@ -1,0 +1,73 @@
+.login {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("fundo.jpg");
+background-size: cover;
+background-position: center;
+
+  }
+  
+  .lContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 30px;
+  background-color: white;
+  box-shadow: 0px 0px 10px #ccc;
+  border-radius: 10px;
+  }
+  
+  .lInput{
+  height: 40px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-bottom: 2px solid #0071c2;
+  font-size: 18px;
+  width: 80%;
+  }
+  
+  .lButton {
+  border: none;
+  padding: 10px 20px;
+  background-color: #0071c2;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20px;
+  width: 80%;
+  transition: all 0.2s ease-in-out;
+  }
+  
+  .lButton:disabled{
+  background-color: #0071c28c;
+  cursor: not-allowed;
+  }
+  
+  .lButton:hover{
+  background-color: #0084ff;
+  }
+  
+  .lButton:active{
+  transform: scale(0.95);
+  }
+  
+  .lContainer h2{
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #0071c2;
+  }
+  
+  .lContainer p{
+  font-size: 14px;
+  color: #777;
+  }
+  
+  .lInput:focus{
+  outline: none;
+  border-bottom: 2px solid #0084ff;
+  }
